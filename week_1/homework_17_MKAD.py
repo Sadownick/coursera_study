@@ -1,3 +1,3 @@
 v = int(input())
 t = int(input())
-print((abs(v * t) % 109))
+print(int((v * v)**0.5 * t) % 109)

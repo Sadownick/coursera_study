@@ -1,10 +1,8 @@
 a, b, c = int(input()), int(input()), int(input())
-if a >= b >= c:
-    (c, a) = (a, c)
-elif a >= c >= b:
-    (a, b, c) = (b, c, a)
-elif c >= a >= b:
-    (a, b, c) = (b, a, c)
-elif b >= a >= c:
-    (a, b, c) = (c, a, b)
+if a > b:
+    (a, b) = (b, a)
+if b > c:
+    (b, c) = (c, b)
+if a > b:
+    (a, b) = (b, a)
 print(a, b, c)

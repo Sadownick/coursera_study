@@ -20,4 +20,3 @@ elif (a1 <= a2) and (b1 <= b2) and (c1 <= c2):
     print("The first box is smaller than the second one")
 else:
     print("Boxes are incomparable")
-
